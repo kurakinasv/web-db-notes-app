@@ -1,0 +1,40 @@
+.note-item .note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.note-item .note-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-color);
+  flex: 1;
+}
+
+.note-item .note-actions {
+  display: flex;
+  gap: 0.25rem;
+  margin-left: 0.5rem;
+}
+
+.note-item .note-content {
+  color: var(--text-light);
+  white-space: pre-wrap;
+}
+
+.note-card {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  transition: all 0.3s ease;
+}
+
+.note-card:hover {
+  box-shadow: 0 8px 25px var(--shadow-color);
+}
+
+.note-card.editing {
+  box-shadow: 0 0 0 2px var(--primary-color);
+}

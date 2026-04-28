@@ -1,0 +1,67 @@
+.note-form {
+  margin-bottom: 2rem;
+}
+
+.note-form .title-input {
+  width: 100%;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: none;
+  border-bottom: 2px solid #fce7f3;
+  background: transparent;
+  color: var(--text-color);
+}
+
+.note-form .title-input::placeholder {
+  color: #f9a8d4;
+}
+
+.note-form .title-input:focus {
+  outline: none;
+  border-bottom-color: var(--primary-color);
+}
+
+.note-form .content-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 2px solid #fce7f3;
+  border-radius: 0.75rem;
+  resize: none;
+  font-family: inherit;
+  color: var(--text-color);
+}
+
+.note-form .content-input::placeholder {
+  color: #f9a8d4;
+}
+
+.note-form .content-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px var(--shadow-color);
+}
+
+.note-form .form-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.note-card {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  transition: all 0.3s ease;
+}
+
+.note-card:hover {
+  box-shadow: 0 8px 25px var(--shadow-color);
+}
+
+.note-card.editing {
+  box-shadow: 0 0 0 2px var(--primary-color);
+}
