@@ -1,0 +1,25 @@
+.app-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.app-link {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  color: var(--text-color);
+  border: 1px solid #fbcfe8;
+  transition: all 0.2s ease;
+}
+
+.app-link:hover {
+  background-color: var(--secondary-color);
+}
+
+.app-link-active {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
