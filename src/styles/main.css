@@ -50,6 +50,10 @@ body {
 .app-content {
   max-width: 56rem;
   width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .app-header {
@@ -82,10 +86,10 @@ body {
 }
 
 .error-page {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1;
   background-color: var(--secondary-color);
 }
 
